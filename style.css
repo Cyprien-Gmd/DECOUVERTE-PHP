@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 75px;
+}
+
+header nav {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #141414;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .topnav {
+  position: relative;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  header .topnav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+header .topnav .icon {
+  color: #FFFFFF;
+  display: block;
+  font-size: 2rem;
+  padding: 20px 0;
+}
+
+header .topnav .icon :hover {
+  color: #FFFFFF;
+}
+
+#myLinks {
+  display: none;
+  background-color: #232323;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#myLinks a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer ol {
+  padding: 5vh 0;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer ol li {
+  color: white;
+  width: auto;
+}
+
+body main {
+  min-height: 100vh;
+}
+
+body main .sct_texte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 5vh 0;
+}
+
+body main .sct_texte .txt {
+  width: 30%;
+}
+
+body main .sct_texte .txt p {
+  color: #232323;
+}
+/*# sourceMappingURL=style.css.map */
